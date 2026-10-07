@@ -1,6 +1,9 @@
+//Tarea 2- Enfoque 1
+
 const { getMemoryUsage } = require('./profiler');
 const N = 1000000; // 1 millón de registros
 const memoriaInicial = getMemoryUsage();
+
 // TDA: Coordenada basada en Objetos
 class CoordenadaObj {
     constructor(lat, lng) {
@@ -8,6 +11,7 @@ class CoordenadaObj {
         this.lng = lng;
     }
 }
+
 // Almacenamos en memoria
 let coordenadas = [];
 for (let i = 0; i < N; i++) {

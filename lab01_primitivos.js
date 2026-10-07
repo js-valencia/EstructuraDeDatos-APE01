@@ -1,3 +1,5 @@
+// Tarea 3 - Enfoque 2
+
 const { getMemoryUsage } = require('./profiler');
 const N = 1000000;
 const memoriaInicial = getMemoryUsage();
